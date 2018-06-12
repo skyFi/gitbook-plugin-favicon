@@ -1,6 +1,10 @@
 # gitbook-plugin-favicon
 gitbook-plugin-favicon, 可配置目录
 
+## gitbook plugin url
+
+[favicon-plus](https://plugins.gitbook.com/plugin/favicon-plus)
+
 ## Install
 Add the below to your `book.json` file, then run `gitbook install` in book folder:
 ```json
