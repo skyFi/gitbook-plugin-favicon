@@ -1,0 +1,41 @@
+{
+  "name": "gitbook-plugin-favicon-plus",
+  "version": "1.0.3",
+  "description": "gitbook-plugin-favicon, 可自定义配置书籍目录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+      "gitbook": "*"
+  },
+  "gitbook": {
+      "properties": {
+          "favicon": {
+              "type": "string",
+              "default": "",
+              "description": "path to favicon"
+          },
+          "appleTouchIconPrecomposed152": {
+            "type": "string",
+            "default": "",
+            "description": "path to apple-touch-icon-precomposed-152"
+          },
+          "output": {
+            "type": "string",
+            "default": "_book",
+            "description": "book output dir"
+          }
+      }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyFi/gitbook-plugin-favicon.git"
+  },
+  "author": "skylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyFi/gitbook-plugin-favicon/issues"
+  },
+  "homepage": "https://github.com/skyFi/gitbook-plugin-favicon#readme"
+}
