@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-favicon-plus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "gitbook-plugin-favicon, 可自定义配置书籍目录",
   "main": "index.js",
   "scripts": {
